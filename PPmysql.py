@@ -5,7 +5,7 @@ class pmysql(object):
 
 
         self.conn = pymysql.connect('localhost', 'root', password, dbname, charset="utf8", use_unicode=True)
-        self.cursor = self.conn.cursor()
+        self.scursor = self.conn.cursor()
 
     def insertDB(self,dic:dict,table_name:str):
         key = [k for k in dic.keys()]
