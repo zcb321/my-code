@@ -1,0 +1,1 @@
+mwpCb1({"api":"http.detail.api","v":"1","ret":"FAIL_SYS_REFERER_INVALID"})
